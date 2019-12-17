@@ -2,7 +2,7 @@
 .idea
 
 # Exclude phone numbers and secret keys
-details.js
+details/details.js
 
 # Logs
 logs
