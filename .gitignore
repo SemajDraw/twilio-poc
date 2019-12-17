@@ -1,5 +1,9 @@
 .DS_Store
 .idea
+
+# Exclude phone numbers and secret keys
+details.js
+
 # Logs
 logs
 *.log

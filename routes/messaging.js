@@ -10,7 +10,7 @@ router.post('/sms', function(request, response) {
         })
         .catch((error) => {
             console.log(error);
-            response.send("Error: " + error.body);
+            response.send("Error: " + error.message);
         });
 });
 
@@ -22,7 +22,7 @@ router.post('/whatsapp_message', function(request, response) {
         })
         .catch((error) => {
             console.log(error);
-            response.send("Error: " + error.body);
+            response.send("Error: " + error.message);
         });
 });
 
@@ -34,7 +34,7 @@ router.post('/whatsapp_notification', function (request, response) {
         })
         .catch((error) => {
             console.log(error);
-            response.send("Error: " + error.body);
+            response.send("Error: " + error.message);
         });
 });
 
